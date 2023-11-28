@@ -1,0 +1,34 @@
+.mainExplosion {
+    max-height: 1252px;
+    max-width: 1500px;
+    float: none;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 1000px;
+}
+
+.mainButton {
+    font-family: handlee;
+    border-width: 5px;
+}
+
+.mainButton:hover {
+    background-color: #e0e02d;
+}
+
+.topLeftExplosion, .topRightExplosion, .bottomLeftExplosion, .bottomRightExplosion {
+    position: fixed;
+
+    max-height: 418px;
+    max-width: 500px;
+}
+
+.otherExplosion {
+    position: fixed;
+
+    max-height: 1252px;
+    max-width: 1500px;
+}

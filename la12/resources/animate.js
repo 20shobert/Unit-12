@@ -4,11 +4,13 @@
 
 $(document).ready(function() {
 
-    /*$('.sue').slideUp(1000);
+    /*
+    $('.sue').slideUp(1000);
     $('.sue').delay(1000).slideDown(1000, function() {
         $('div').fadeOut(2000);
         $('div').delay(1000).fadeIn(2000);
-    });*/
+    });
+    */
 
     $('#fireworks').click(function() {
         $('h2').fadeOut();
@@ -22,7 +24,7 @@ $(document).ready(function() {
             $(this).show();
         });
 
-        $('.green').animate({ //we're resetting the animation so it can be played again
+        $('.green').animate({
             height: '0px',
             width: '0px',
             top: '300px',
@@ -31,7 +33,7 @@ $(document).ready(function() {
             $(this).show();
         });
 
-        $('.red').animate({ //we're resetting the animation so it can be played again
+        $('.red').animate({
             height: '0px',
             width: '0px',
             top: '300px',

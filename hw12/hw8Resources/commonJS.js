@@ -14,7 +14,7 @@ document.getElementById("head").innerHTML += `
 
 document.getElementById("nav").innerHTML = `
 <header>
-<p>Spencer Hobert's CS2350</p>
+<p class="headerText">Spencer Hobert's CS2350</p>
 <img class="explosionImgLeft" src="hw7Resources/explosion.png" alt="Explosion" height="150px">
 <img class="explosionImgRight" src="hw7Resources/explosion.png" alt="Explosion" height="150px">
 

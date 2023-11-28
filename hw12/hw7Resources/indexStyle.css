@@ -212,6 +212,10 @@ select, input[type="text"] {
     height: 32px;
 }
 
+select:hover, input[type="text"]:hover {
+	background-color: #e0e02d;
+}
+
 .radio {
     font-family: handlee;
     text-align: left;
@@ -225,6 +229,27 @@ select, input[type="text"] {
     text-align: left;
 
     width: 120px;
+}
+
+.hw12Button {
+	font-family: handlee;
+    font-size: 16px;
+
+    background-color: #fcf765;
+    border: solid 2px #850e05;
+    width: 120px;
+    height: 32px;
+}
+
+.hw12Button:hover {
+	background-color: #e0e02d;
+}
+
+.hw12MovingExplosion {
+	position: fixed;
+
+    max-height: 418px;
+    max-width: 500px;
 }
 
 footer section p {
